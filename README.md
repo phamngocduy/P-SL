@@ -5,6 +5,8 @@
 - Experiments on P-SL with various datasets under different data distributions
 - Experiments on P-SL in scalable and dynamic environments
 
+<img src="PrivacySL.png" alt="P-SL Model" width="400">
+
 **Repository overview**
 - `data/` - Contains recorded accuracy results from various experiments and the ECG dataset in `hdf5` format.
 - `library/` - includes source code in `ipynb` format for:
