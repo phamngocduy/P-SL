@@ -13,7 +13,7 @@
   - `Network.ipynb` - Implementation of the proposed P-SL model
   - `Dataset.ipynb` - Functions for training dataset loading
   - `Training.ipynb` - Training scripts for the networks.
-- `MultipleClients/` - Experiments with P-SL using 6 clients on CIFAR10, Fashion, and ECG datasets under different data distributions (IID, imbalanced).
+- `MultipleClients/` - Experiments with P-SL using 6 clients on CIFAR10, Fashion, and ECG datasets under different data distributions (IID, Non-IID, and imbalanced).
   - `RandomOrder/` - Results when clients are randomly selected each round.
 - `MultipleServers/` - Experiments with multiple servers (ranging from 2 to 20) for parallel client training.
 - `WithNewcomers/` Experiments with newly participating clients on CIFAR10 and Fashion datasets.
