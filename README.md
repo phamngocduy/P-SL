@@ -18,3 +18,9 @@
 - `MultipleServers/` - Experiments with multiple servers (ranging from 2 to 20) for parallel client training.
 - `WithNewcomers/` Experiments with newly participating clients on CIFAR10 and Fashion datasets.
 - `RelatedWork/` - Comparisons with other privacy-preserving methods, including differential privacy, DISCO, and ResSFL.
+
+Our code is implemented and tested using PyTorch on Google Colab Notebook with GPU acceleration enabled. The following packages are used in our implementation:
+- `torch==2.5.1+cu124`
+- `torchvision==0.20.1+cu124`
+- `pytorch-msssim==1.0.0`
+- `python==3.11.11`
